@@ -5,7 +5,7 @@ return {
       'nvim-treesitter/nvim-treesitter-textobjects',
     },
     build = ':TSUpdate',
-    ensure_installed = { "lua", "python", "bash" }, 
+    ensure_installed = { "lua", "python", "bash", "markdown", "markdown_inline" }, 
     sync_install = true,
     highlight = {
     enable = true, -- false will disable the whole extension
