@@ -33,7 +33,11 @@ vim.opt.scrolloff = 8                           -- is one of my fav
 vim.opt.sidescrolloff = 8
 vim.opt.guifont = "monospace:h17"               -- the font used in graphical neovim applications
 vim.opt.shortmess:append "c"
+vim.opt.splitright = true -- Open vertical splits to the right
+vim.opt.splitbelow = true  -- Open horizontal splits below
 
+vim.cmd "set winwidth=190"  -- Minimum width of splits
+vim.cmd "set winheight=15"
 vim.cmd "set cursorlineopt=number"
 vim.cmd "set ma"
 vim.cmd "set cursorline"
